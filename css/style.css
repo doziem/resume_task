@@ -8,7 +8,6 @@ p,
 li,
 span {
   margin: 0.1rem;
-  /* letter-spacing: 1.5; */
   font-size: 0.8rem;
 }
 label {
@@ -25,6 +24,8 @@ h3 {
 header {
   background-color: #131822e8;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 header img {
@@ -33,12 +34,12 @@ header img {
   padding: 1.1rem 0 1.1rem 1.1rem;
 }
 
-header span {
+header p {
   color: #fff;
 }
 
 .container {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cario', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   max-width: 80%;
   display: flex;
@@ -103,14 +104,12 @@ aside {
 .linux div {
   border-top: 0.4rem solid #fff;
   padding: 0.5rem;
-
   width: 70%;
 }
 
 .excel div {
   border-top: 0.4rem solid #fff;
   padding: 0.5rem;
-
   width: 55%;
 }
 .microsoft p,
@@ -150,7 +149,7 @@ aside {
 main {
   max-width: 90%;
   background-color: #fff;
-  padding: 2rem;
+  padding: 1rem;
   line-height: 1.5em;
   text-align: start;
   font-size: larger;
@@ -163,15 +162,15 @@ main {
 .education h2,
 .certificate h2,
 .interest h2 {
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   padding: 0.5rem 0;
 }
 .content-flex {
   display: flex;
 }
 .content-flex .title {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 .cert-date,
 .cert-title {
@@ -198,7 +197,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   header {
-    width: 95%;
+    width: 100%;
     padding: 0.5rem 0 0.5rem 0.5rem;
   }
   header img {
@@ -209,6 +208,7 @@ main {
     display: block;
     justify-items: center;
     margin: 0 auto;
+    width: 100%;
   }
   aside {
     width: 95%;
@@ -226,5 +226,12 @@ main {
   }
   .content-flex .title {
     margin-left: 0;
+  }
+
+  .cert-title {
+    display: flex;
+  }
+  .date {
+    margin-right: 0.4rem;
   }
 }
