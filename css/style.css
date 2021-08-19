@@ -4,15 +4,37 @@ body {
 
   /* width: 100%; */
 }
-p {
-  margin: 0.2rem;
-  padding: 0.5rem 0.2rem;
-  letter-spacing: 1.5;
+p,
+li,
+span {
+  margin: 0.1rem;
+  /* letter-spacing: 1.5; */
+  font-size: 0.8rem;
+}
+label {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 0.9rem;
 }
 
 header {
-  background-color: #fff;
+  background-color: #131822e8;
   width: 100%;
+}
+
+header img {
+  height: 4rem;
+  width: 4rem;
+  padding: 1.1rem 0 1.1rem 1.1rem;
+}
+
+header span {
+  color: #fff;
 }
 
 .container {
@@ -175,6 +197,14 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  header {
+    width: 95%;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+  }
+  header img {
+    width: 2rem;
+    height: 2rem;
+  }
   .container {
     display: block;
     justify-items: center;
