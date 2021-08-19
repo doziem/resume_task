@@ -14,17 +14,7 @@ header {
   background-color: #fff;
   width: 100%;
 }
-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-  padding-bottom: 0.5rem;
-}
-header img {
-  height: 4rem;
-  width: 4rem;
-  padding: 0.5rem 0 0 0.5rem;
-}
+
 .container {
   font-family: 'Lato', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -182,4 +172,29 @@ main {
 
 .date {
   margin-right: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: block;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  aside {
+    width: 95%;
+  }
+  .aside-content {
+    max-width: 95%;
+  }
+  .header h2 {
+    padding: 1rem;
+  }
+  .content-flex {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .content-flex .title {
+    margin-left: 0;
+  }
 }
