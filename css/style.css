@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  background-color: #c2b9b0;
+
+  /* width: 100%; */
+}
+p {
+  margin: 0.2rem;
+  padding: 0.5rem 0.2rem;
+  letter-spacing: 1.5;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-bottom: 0.5rem;
+}
+header img {
+  height: 4rem;
+  width: 4rem;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.container {
+  font-family: 'Lato', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 80%;
+  display: flex;
+  margin: 4rem auto;
+}
+aside {
+  background: #131822e8;
+  color: #fff;
+  max-width: 18%;
+  text-align: start;
+  padding-left: 0.7rem;
+  line-height: 1.5em;
+}
+
+.aside-content {
+  width: 100%;
+}
+
+.header h2 {
+  margin-bottom: 0.1rem;
+}
+.personal_info p {
+  padding: 0.5rem 0;
+}
+.personal_info label {
+  font-weight: bolder;
+  padding: 0.5rem 0;
+}
+.personal_info h3,
+.software h3,
+.skills h3,
+.languages h3 {
+  background: #070b13e8;
+  padding: 0.5rem;
+  font-weight: lighter;
+}
+.skills p {
+  text-transform: capitalize;
+}
+
+/* microsoft */
+
+.microsoft {
+  padding: 0.5rem;
+}
+.microsoft span {
+  margin-bottom: 2rem;
+}
+.microsoft div {
+  border-top: 0.4rem solid #fff;
+  padding: 0.5rem;
+
+  width: 90%;
+}
+
+.microsoft div span {
+  width: 100%;
+  background: #070b13e8;
+}
+
+.server div,
+.linux div {
+  border-top: 0.4rem solid #fff;
+  padding: 0.5rem;
+
+  width: 70%;
+}
+
+.excel div {
+  border-top: 0.4rem solid #fff;
+  padding: 0.5rem;
+
+  width: 55%;
+}
+.microsoft p,
+.server p,
+.linux p,
+.excel p,
+.english p,
+.french p {
+  float: right;
+  padding-right: 1.5rem;
+}
+
+.server,
+.linux,
+.excel,
+.languages,
+.french,
+.clear {
+  clear: both;
+}
+
+.english div {
+  border-top: 0.5rem solid #fff;
+  padding: 0.5rem;
+
+  width: 75%;
+}
+
+.french div {
+  border-top: 0.5rem solid #fff;
+  padding: 0.5rem;
+
+  width: 40%;
+}
+
+/* main section */
+main {
+  max-width: 90%;
+  background-color: #fff;
+  padding: 2rem;
+  line-height: 1.5em;
+  text-align: start;
+  font-size: larger;
+}
+
+.main-content {
+  width: 100%;
+}
+.experience h2,
+.education h2,
+.certificate h2,
+.interest h2 {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0.5rem 0;
+}
+.content-flex {
+  display: flex;
+}
+.content-flex .title {
+  margin-left: 5rem;
+}
+.cert-date,
+.cert-title {
+  display: flex;
+  align-items: center;
+}
+.education h2,
+.title h4,
+.title ul {
+  margin: 0.4rem;
+}
+.title ul {
+  padding-right: 0;
+}
+
+.title h4,
+.title p {
+  padding-left: 1.2rem;
+}
+
+.date {
+  margin-right: 5rem;
+}
