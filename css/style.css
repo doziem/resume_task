@@ -29,8 +29,8 @@ header {
 }
 
 header img {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   padding: 1.1rem 0 1.1rem 1.1rem;
 }
 
@@ -41,21 +41,22 @@ header p {
 .container {
   font-family: 'Cario', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  max-width: 80%;
+  max-width: 90%;
   display: flex;
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 aside {
   background: #131822e8;
-  color: #fff;
-  max-width: 18%;
+  /* color: #b29155; */
+  color: #f4d474;
+  max-width: 20%;
   text-align: start;
   padding-left: 0.7rem;
   line-height: 1.5em;
 }
 
 .aside-content {
-  width: 100%;
+  max-width: 90%;
 }
 
 .header h2 {
@@ -78,6 +79,7 @@ aside {
 }
 .skills p {
   text-transform: capitalize;
+  margin-top: 0.7rem;
 }
 
 /* microsoft */
@@ -142,35 +144,44 @@ aside {
   border-top: 0.5rem solid #fff;
   padding: 0.5rem;
 
-  width: 40%;
+  width: 90%;
 }
 
 /* main section */
 main {
   max-width: 90%;
   background-color: #fff;
-  padding: 1rem;
+  padding-left: 2rem;
+  /* padding: 1rem; */
   line-height: 1.5em;
   text-align: start;
   font-size: larger;
 }
 
 .main-content {
-  width: 100%;
+  max-width: 90%;
 }
+
+.bio h2,
 .experience h2,
 .education h2,
 .certificate h2,
 .interest h2 {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #ccc;
+  /* color: #bd3147; */
+  color: rgb(10, 7, 180);
   padding: 0.5rem 0;
 }
-.content-flex {
+
+.title-andela {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.content-flex .title {
-  margin-left: 0.5rem;
+
+.title-date {
+  padding-right: 4rem;
 }
 .cert-date,
 .cert-title {
@@ -182,8 +193,10 @@ main {
 .title ul {
   margin: 0.4rem;
 }
-.title ul {
+.title ul,
+.content-flex ul {
   padding-right: 0;
+  padding-left: 0.5rem;
 }
 
 .title h4,
@@ -193,6 +206,9 @@ main {
 
 .date {
   margin-right: 2rem;
+}
+.interest {
+  padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -207,14 +223,17 @@ main {
   .container {
     display: block;
     justify-items: center;
-    margin: 0 auto;
-    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 90%;
   }
   aside {
-    width: 95%;
+    max-width: 90%;
+  }
+  .main-content {
+    width: 90%;
   }
   .aside-content {
-    max-width: 95%;
+    max-width: 90%;
   }
   .header h2 {
     padding: 1rem;
@@ -227,11 +246,18 @@ main {
   .content-flex .title {
     margin-left: 0;
   }
-
+  .title-andela {
+    display: block;
+    margin: 0.5rem;
+    padding-right: 1rem;
+  }
   .cert-title {
     display: flex;
   }
   .date {
     margin-right: 0.4rem;
+  }
+  .cert-date {
+    display: block;
   }
 }
